@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'Raleway', sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Raleway&display=swap") format("woff2");
+  unicode-range: U+0025-00FF;
+  font-display: swap;
+}
+
+* {
+  font-size: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+p {
+  font-size: 1.6rem;
+  letter-spacing: 1px;
+  line-height: 1.4;
+  white-space: wrap;
+  text-overflow: ellipsis;
+}
+/*# sourceMappingURL=style.css.map */

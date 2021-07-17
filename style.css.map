@@ -1,0 +1,13 @@
+{
+    "version": 3,
+    "mappings": "ACAA,UAAU;EACN,WAAW,EAAE,qBAAqB;EAClC,GAAG,EAAE,oEAAoE,CAAC,eAAe;EACzF,aAAa,EAAE,WAAW;EAC1B,YAAY,EAAE,IAAI;;;ACJtB,AAAA,CAAC,CAAA;EACG,SAAS,EAAE,IAAI;EACf,UAAU,EAAE,UAAU;EACtB,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,WAAW,EAAE,qBAAqB;CAErC;;ACPD,AAAA,EAAE,CAAA;EACE,SAAS,EAAE,IAAI;CAClB;;ACFD,AAAA,CAAC,CAAA;EACG,SAAS,EAAE,MAAM;EACjB,cAAc,EAAE,GAAG;EACnB,WAAW,EAAE,GAAG;EAChB,WAAW,EAAE,IAAI;EACjB,aAAa,EAAE,QAAQ;CAC1B",
+    "sources": [
+        "style.scss",
+        "Assets/SCSS/1.Settings/_settings-fonts.scss",
+        "Assets/SCSS/1.Settings/_settings-global.scss",
+        "Assets/SCSS/4.Elements/_elements-headings.scss",
+        "Assets/SCSS/4.Elements/_elements-paragaphs.scss"
+    ],
+    "names": [],
+    "file": "style.css"
+}
