@@ -1,0 +1,24 @@
+.about-me {
+
+    text-align: center;
+    width: calc(100vw - 5%);
+    margin: 0 auto;
+
+    &__heading {
+        margin: 1.5rem 0;
+        font-weight: lighter;
+    }
+
+    &__line {
+        height: 1px;
+        width: 2rem;
+        margin: 0 auto;
+        background-color: $color-black;
+
+
+    }
+
+    &__text {
+        margin-top: 1rem;
+    }
+}

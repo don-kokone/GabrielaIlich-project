@@ -15,14 +15,142 @@
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 2.6rem;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #2e2d2d;
 }
 
 p {
-  font-size: 1.6rem;
+  font-size: 1rem;
   letter-spacing: 1px;
   line-height: 1.4;
   white-space: wrap;
   text-overflow: ellipsis;
+  font-weight: lighter;
+}
+
+img {
+  max-width: 100vw;
+  max-height: auto;
+}
+
+li {
+  font-size: 1rem;
+}
+
+.header .header-image {
+  max-width: 100vw;
+  max-height: auto;
+  position: relative;
+}
+
+.header .header-image__image {
+  width: 100%;
+  height: auto;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+.header .header-image__model-name {
+  font-size: 3rem;
+  font-weight: bolder;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  position: absolute;
+  white-space: nowrap;
+  letter-spacing: 2px;
+  top: 40%;
+  right: -40%;
+}
+
+.header .header-image__model-name--first {
+  color: white;
+}
+
+.header .header-image__model-name--last {
+  color: #fff06e;
+}
+
+.lower-case-with-overline {
+  text-decoration: overline;
+}
+
+.about-me {
+  text-align: center;
+  width: calc(100vw - 5%);
+  margin: 0 auto;
+}
+
+.about-me__heading {
+  margin: 1.5rem 0;
+  font-weight: lighter;
+}
+
+.about-me__line {
+  height: 1px;
+  width: 2rem;
+  margin: 0 auto;
+  background-color: #2e2d2d;
+}
+
+.about-me__text {
+  margin-top: 1rem;
+}
+
+.model-info {
+  position: relative;
+}
+
+.model-info .left,
+.model-info .right {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+  position: absolute;
+  color: white;
+  top: 50%;
+}
+
+.model-info .left {
+  left: 1.5%;
+}
+
+.model-info .right {
+  right: 1.5%;
+}
+
+.model-info .portfolio {
+  margin-top: 2rem;
+  background-color: #abaaaa;
+  text-align: center;
+}
+
+.model-info .portfolio__heading {
+  color: white;
+  padding: 2rem 0 3rem 0;
+  font-weight: lighter;
+}
+
+.model-info .portfolio__sizes {
+  color: white;
+}
+
+.model-info .portfolio__sizes li {
+  margin: 0.5rem 0;
+}
+
+.model-info .portfolio__instagram-icon .fab {
+  font-size: 2rem;
+  color: white;
+  margin: 1rem 0;
+}
+
+.model-info .model-image {
+  display: none;
 }
 /*# sourceMappingURL=style.css.map */

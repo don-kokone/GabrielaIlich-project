@@ -1,0 +1,73 @@
+.model-info {
+
+    position: relative;
+    //display: flex;
+    
+
+
+    //Left and Right Arrows
+
+    .left,
+    .right {
+        background-color: transparent;
+        outline: none;
+        border: none;
+        cursor: pointer;
+        font-size: 1.5rem;
+        position: absolute;
+        color: $color-white;
+        top: 50%;
+
+    }
+
+    .left {
+        left: 1.5%;
+    }
+
+    .right {
+        right: 1.5%;
+    }
+
+    //Articles
+
+    .portfolio {
+
+        margin-top: 2rem;
+        background-color: $color-grey;
+        text-align: center;
+
+
+        &__heading {
+
+            color: $color-white;
+            padding: 2rem 0 3rem 0;
+            font-weight: lighter;
+        }
+
+        &__sizes {
+            color: $color-white;
+
+            li {
+                margin: 0.5rem 0;
+            }
+        }
+
+        &__instagram-icon {
+
+            .fab {
+                font-size: 2rem;
+                color: $color-white;
+                margin: 1rem 0;
+
+            }
+        }
+
+
+    }
+
+    .model-image{
+display: none;
+    }
+
+
+}

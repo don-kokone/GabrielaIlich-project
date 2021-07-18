@@ -1,5 +1,13 @@
 @import "./Assets/SCSS/1.Settings/settings-fonts";
 @import "./Assets/SCSS/1.Settings/settings-global";
+@import "./Assets/SCSS/1.Settings/settings-colors";
 
 @import "./Assets/SCSS/4.Elements/elements-headings";
 @import "./Assets/SCSS/4.Elements/elements-paragaphs";
+@import "./Assets/SCSS/4.Elements/elements-images";
+@import "./Assets/SCSS/4.Elements/elements-lists";
+
+@import "./Assets/SCSS/6.Components/components-header";
+@import "./Assets/SCSS/6.Components/components-upperlined-case";
+@import "./Assets/SCSS/6.Components/components-about_me-section";
+@import "./Assets/SCSS/6.Components/components-model_info-section";

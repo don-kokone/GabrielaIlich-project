@@ -14,65 +14,107 @@
 
 <body>
 
-    <header>
-        <h1>Gabriela Ilich</h1>
-        <figure>
-            <img src="https://images.pexels.com/photos/2811087/pexels-photo-2811087.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-                alt="Gabriela Ilich">
+    <header class="header">
 
+        <figure class="header-image">
+            <img class="header-image__image" src="https://images.pexels.com/photos/2811087/pexels-photo-2811087.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                alt="Gabriela Ilich">
+            <figcaption class="header-image__model-name">
+                <span class="header-image__model-name--first">Gabriela</span> <span class="header-image__model-name--last">Ilich</span> 
+            </figcaption>
         </figure>
 
     </header>
 
     <main>
 
-        <section>
-            <h1>
-                About me
-            </h1>
-            <p>
+        <section class="about-me">
+            <h2 class="about-me__heading">
+                <span class="lower-case-with-overline">a</span>BOUT M<span class="lower-case-with-overline">e</span>
+            </h2>
+
+            <div class="about-me__line"></div>
+            <p class="about-me__text">
                 Born and raised in Germany, Nicola Cavanis developed a love for modeling at the age of 16. She is from
                 the city Munich in Bavaria. Her fierce and natural looks and fun personality can be seen through her
                 images.
-
-                ​
             </p>
 
-            <p>
+            <p class="about-me__text">
                 As a model, Nicola has been on the runway several times and worked for Shape Magazine, Leonisa,
                 Women'secret, Stell Magazine, Zalando Deutschland and more.
             </p>
         </section>
 
-        <section>
-            <h1>
-                Portfolio
-            </h1>
+        <section class="model-info">
 
-            <ul>
-                <li>HEIGHT : 173 - 5'8"</li>
-                <li>BUST : 85 - 33"</li>
-                <li>WAIST : 62 - 24"</li>
-                <li>HIPS : 93 - 36"</li>
-                <li>SHOES : 39 - 7 1/2</li>
-                <li>HAIR : BROWN</li>
-                <li>EYES : GREEN</li>
-            </ul>
+            <button class="left">
+                <i class=" fas fa-chevron-left"></i>
+            </button>
 
-            <div>
-                <i class="fab fa-instagram"></i>
-            </div>
+            <button class="right ">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+            
+
+            <article class="portfolio">
+                <h2 class="portfolio__heading">
+                    <span class="lower-case-with-overline">p</span>ORTFOLI<span class="lower-case-with-overline">o</span>
+                </h2>
+
+                <ul class="portfolio__sizes">
+                    <li>HEIGHT : 173 - 5'8"</li>
+                    <li>BUST : 85 - 33"</li>
+                    <li>WAIST : 62 - 24"</li>
+                    <li>HIPS : 93 - 36"</li>
+                    <li>SHOES : 39 - 7 1/2</li>
+                    <li>HAIR : BROWN</li>
+                    <li>EYES : GREEN</li>
+                </ul >
+
+                <div class="portfolio__instagram-icon">
+                    <a href="#"> <i class="fab fa-instagram"></i></a>
+                </div>
+            </article>
+
+            <article class="model-image">
+                <figure>
+                    <img src="https://images.pexels.com/photos/7235641/pexels-photo-7235641.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                        alt="Gabriela Ilich White Dress Sitting on Brown Hay">
+                </figure>
+            </article>
+
+            <article class="model-image">
+                <figure>
+                    <img src="https://images.pexels.com/photos/5861342/pexels-photo-5861342.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                        alt="Gabriela Ilich in trendy outfit looking at camera">
+                </figure>
+            </article>
+
+            <article class="model-image">
+                <figure>
+                    <img src="https://images.pexels.com/photos/5728497/pexels-photo-5728497.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                        alt="Gabriela Ilich in Blue Tube Dress">
+                </figure>
+            </article>
 
         </section>
 
-        <section>
-            <figure>
-                <img src="https://images.pexels.com/photos/2811087/pexels-photo-2811087.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-                    alt="Gabriela Ilich">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
+        <section class="inspiring">
+
+            <figure class="image-with-quote">
+                <img class="image-with-quote__image" src="https://images.pexels.com/photos/5583439/pexels-photo-5583439.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                    alt="Gabriela Ilich sitting on chair in vintage room">
+
+                <figcaption class="image-with-quote__quote">
+                    <p>
+                        <q> <span>I never lose.</span> <span>I either win or learn </span> </q> Nelson Mandela
+                    </p>
+
+                </figcaption>
+
             </figure>
+           
         </section>
 
         <section>
@@ -88,20 +130,30 @@
                 I have always been fascinated by the fashion world and its limitless possibilities
             </p>
 
-            <a href="#">Contact</a>
+            <button> Contact </button>
         </section>
 
     </main>
 
     <footer>
-        <h2>Fallow me on</h2>
 
-        <div>
-            <i class="fab fa-instagram"></i>
-            <i class="fab fa-facebook"></i>
-            <i class="fab fa-twitter"></i>
+        <section>
 
-        </div>
+            <h2>Fallow me on</h2>
+
+            <div>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href=""><i class="fab fa-facebook"></i></a>
+                <a href=""><i class="fab fa-twitter"></i></a>
+            </div>
+
+        </section>
+
+        <section>
+            <p> &#169; Made by me 2021</p>
+        </section>
+
+
 
     </footer>
 </body>
