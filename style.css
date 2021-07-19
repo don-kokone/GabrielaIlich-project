@@ -5,6 +5,13 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: 'Cormorant Garamond', serif;
+  src: url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap") format("woff2");
+  unicode-range: U+0025-00FF;
+  font-display: swap;
+}
+
 * {
   font-size: 100%;
   -webkit-box-sizing: border-box;
@@ -152,5 +159,63 @@ li {
 
 .model-info .model-image {
   display: none;
+}
+
+.inspiring .image-with-quote {
+  position: relative;
+}
+
+.inspiring .image-with-quote__quote {
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+  text-align: right;
+  color: white;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 2px #abaaaa;
+}
+
+.inspiring .image-with-quote__quote p {
+  display: block;
+  letter-spacing: 1px;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 0.9rem;
+}
+
+.inspiring .image-with-quote__quote p span {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 1rem;
+}
+
+.inspiring .image-with-quote__quote .quote-source {
+  color: #fff06e;
+  text-transform: initial;
+}
+
+.work-with-me {
+  text-align: center;
+  width: calc(100vw - 5%);
+  margin: 0 auto;
+}
+
+.work-with-me__heading {
+  margin: 1.5rem 0;
+  font-weight: lighter;
+}
+
+.work-with-me__text {
+  margin-top: 1rem;
+  font-style: italic;
+  line-height: 2;
+}
+
+.work-with-me button {
+  margin: 2rem 0;
+  background-color: transparent;
+  padding: 0.5rem 2rem;
+  border-radius: 25px;
+  text-transform: uppercase;
 }
 /*# sourceMappingURL=style.css.map */
