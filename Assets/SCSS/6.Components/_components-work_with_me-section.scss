@@ -1,12 +1,16 @@
 .work-with-me{
 
     text-align: center;
-    width: calc(100vw - 5%);
-    margin: 0 auto;
+    width: 100%;
+    margin: -2rem auto 0rem auto;
+    color: $color-white;
+    background: rgb(12,227,217);
+    background: linear-gradient(90deg, $color-light-blue 0%, $color-blue 100%);
 
     &__heading{
         margin: 1.5rem 0;
         font-weight: lighter;
+        padding-top: 2rem;
 
     }
 
@@ -16,11 +20,4 @@
         line-height: 2;
     }
 
-    button{
-        margin: 2rem 0;
-        background-color: transparent;
-        padding: 0.5rem 2rem;
-        border-radius: 25px;
-        text-transform: uppercase;
-    }
 }
