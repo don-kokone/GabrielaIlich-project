@@ -30,6 +30,10 @@ h2 {
   color: #2e2d2d;
 }
 
+h3 {
+  font-size: 1.5rem;
+}
+
 p {
   font-size: 1rem;
   letter-spacing: 1px;
@@ -208,10 +212,6 @@ a:active {
   text-align: center;
   width: 100%;
   margin: -2rem auto 0rem auto;
-  color: white;
-  background: #0ce3d9;
-  background: -webkit-gradient(linear, left top, right top, from(#0ce3d9), to(rgba(49, 129, 219, 0.8)));
-  background: linear-gradient(90deg, #0ce3d9 0%, rgba(49, 129, 219, 0.8) 100%);
 }
 
 .work-with-me__heading {
@@ -233,15 +233,41 @@ a:active {
   text-transform: uppercase;
   margin: 2rem;
   outline: none;
-  border: 2px solid white;
-  color: white;
+  border: 2px solid #2e2d2d;
 }
 
 .footer {
-  background-color: #abaaaa;
+  background-color: #5c5858;
 }
 
-.footer .social_heading {
+.footer .social__heading {
   text-transform: capitalize;
+  text-align: center;
+  padding-top: 1rem;
+  font-weight: lighter;
+  color: white;
+}
+
+.footer .social__icons {
+  margin: 2rem 0rem;
+  text-align: center;
+}
+
+.footer .social__icons .icon {
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  border-radius: 50%;
+  background-color: white;
+  color: #5c5858;
+  text-align: center;
+}
+
+.footer .creator-info {
+  text-align: center;
+}
+
+.footer .creator-info p {
+  font-size: 0.8rem;
+  color: #abaaaa;
 }
 /*# sourceMappingURL=style.css.map */
