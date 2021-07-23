@@ -1,0 +1,59 @@
+.contact-me {
+
+    position: relative;
+    &__image {
+
+
+        figure {
+
+            max-width: 100vh;
+            max-height: 100vh;
+
+            img {
+
+                width: 100%;
+                height: auto;
+                opacity: 0.8;
+
+            }
+        }
+    }
+
+    &__icons {
+
+        position: absolute;
+        top: 30%;
+        left: 40%;
+        font-size: 2rem;
+
+        .icon{
+            
+            .fab{
+                padding: 0.5rem;
+                border-radius: 50%;
+                background-color: $color-white;
+                color: $color-grey;
+            }
+        }
+        
+    }
+
+    &__text{
+        position: absolute;
+        bottom: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: $color-white;
+
+        p{
+            margin: 3rem 0;
+           
+        }
+
+        address{
+            font-size: 1.5rem;
+            font-weight: bolder;
+            text-decoration: italic;
+        }
+    }
+}
