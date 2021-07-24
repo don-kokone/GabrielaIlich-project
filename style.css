@@ -264,17 +264,45 @@ a:active {
   text-align: center;
 }
 
-.footer .creator-info {
+.creator-info--index-page {
   text-align: center;
 }
 
-.footer .creator-info p {
+.creator-info--index-page p {
+  font-size: 0.8rem;
+  color: #abaaaa;
+}
+
+.creator-info--contact-page {
+  text-align: center;
+  background-color: #5c5858;
+  padding: 0.5rem 0rem;
+}
+
+.creator-info--contact-page p {
   font-size: 0.8rem;
   color: #abaaaa;
 }
 
 .contact-me {
   position: relative;
+  overflow: hidden;
+}
+
+.contact-me__image {
+  position: relative;
+}
+
+.contact-me__image h2 {
+  color: white;
+  font-weight: lighter;
+  position: absolute;
+  letter-spacing: 2px;
+  top: 5%;
+  right: 10%;
+  z-index: 2;
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid white;
 }
 
 .contact-me__image figure {
@@ -283,14 +311,15 @@ a:active {
 }
 
 .contact-me__image figure img {
-  width: 100%;
-  height: auto;
-  opacity: 0.8;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
 }
 
 .contact-me__icons {
   position: absolute;
-  top: 30%;
+  top: 20%;
   left: 40%;
   font-size: 2rem;
 }
@@ -299,12 +328,12 @@ a:active {
   padding: 0.5rem;
   border-radius: 50%;
   background-color: white;
-  color: #abaaaa;
+  color: #5c5858;
 }
 
 .contact-me__text {
   position: absolute;
-  bottom: 10%;
+  top: 70%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
@@ -313,6 +342,7 @@ a:active {
 
 .contact-me__text p {
   margin: 3rem 0;
+  text-align: center;
 }
 
 .contact-me__text address {
@@ -320,5 +350,9 @@ a:active {
   font-weight: bolder;
   -webkit-text-decoration: italic;
           text-decoration: italic;
+}
+
+.contact-me__text address a {
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */
