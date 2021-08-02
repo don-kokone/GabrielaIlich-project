@@ -7,3 +7,16 @@
 opacity: 100%;
     }
 }
+
+@keyframes transform-X {
+
+
+    0%{
+        transform: translateY(10%);
+    }
+
+    100%{
+        transform: translateY(0%);
+    }
+    
+}

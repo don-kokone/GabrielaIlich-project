@@ -31,3 +31,51 @@
         }
     }
 }
+
+@media only screen and (min-width: 768px) {
+
+    .header{
+
+        position: relative;
+      
+
+        .header-image{
+
+            position: fixed;
+            top: 0%;
+            left: 0%;
+            z-index: -1;
+           
+
+            &__image{
+                width: 100vw;
+                height: auto;
+            }
+
+            &__model-name{
+                font-size: 5rem;
+                font-weight: bolder;
+                position: absolute;
+                top: 10%;
+                left: 3%;
+                transform: rotate(0deg);
+                word-break: break-all;
+                max-width: 100vw ;
+
+                .header-image__model-name--first,
+                .header-image__model-name--last{
+                    display: block;
+                }
+
+                .header-image__model-name--last{
+                    border-bottom: 5px solid $color-yellow;
+                    width: 10rem;
+                
+                }
+    
+            }
+        }
+
+    }
+
+}
