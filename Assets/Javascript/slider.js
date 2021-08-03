@@ -40,3 +40,4 @@ function next(direction) {
     }
     slides[index].classList.add("active")
 }
+

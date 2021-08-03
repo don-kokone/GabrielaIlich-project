@@ -59,7 +59,7 @@ a:active {
 
 @-webkit-keyframes fading {
   0% {
-    opacity: 0;
+    opacity: 0%;
   }
   100% {
     opacity: 100%;
@@ -68,7 +68,7 @@ a:active {
 
 @keyframes fading {
   0% {
-    opacity: 0;
+    opacity: 0%;
   }
   100% {
     opacity: 100%;
@@ -188,7 +188,7 @@ a:active {
 }
 
 .about-me__text {
-  margin-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 @media only screen and (min-width: 768px) {
@@ -257,7 +257,6 @@ a:active {
 }
 
 .model-info .slider-items .slide {
-  margin-top: 2rem;
   display: none;
   -webkit-animation: fading 0.7s linear none;
           animation: fading 0.7s linear none;
@@ -276,6 +275,19 @@ a:active {
   top: 0%;
   left: 0;
   z-index: 3;
+}
+
+@media only screen and (min-width: 765px) {
+  .model-info::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-color: white;
+  }
 }
 
 .inspiring {
@@ -322,6 +334,14 @@ a:active {
 .inspiring .image-with-quote__quote .quote-source {
   color: #fff06e;
   text-transform: initial;
+}
+
+@media only screen and (min-width: 768px) {
+  .inspiring {
+    margin-top: 0rem;
+    padding-top: 2rem;
+    background-color: white;
+  }
 }
 
 .work-with-me {
