@@ -14,12 +14,14 @@
         &__model-name{
             font-size: 3rem;
             font-weight: bolder;
-            transform: rotate(90deg);
-            position: absolute;
+            transform: rotate(90deg) translate(-65%, -50%);
+            position: relative;
             white-space: nowrap;
             letter-spacing: 2px;
-            top: 40%;
-            right: -40%;
+            top: 0%;
+            left: 30%;
+         
+           
 
             &--first{
                 color: $color-white;
