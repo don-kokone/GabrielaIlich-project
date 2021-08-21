@@ -8,7 +8,7 @@
         margin: 1.5rem 0;
         font-weight: lighter;
 
-       
+    
     }
 
     &__line {
@@ -33,5 +33,13 @@
         padding-top: 1rem;
         background-color: $color-white;
         width: 100vw;
+
+        &__text {
+            width: 90%;
+            margin: 0 auto;
+            padding: 2rem 0rem;
+            
+        }
+
     }
 }

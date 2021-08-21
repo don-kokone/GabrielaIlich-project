@@ -34,6 +34,17 @@
     }
 }
 
+@media only screen and (max-width: 767px) {
+
+    .header-image{
+
+        .big-screen{
+            display: none;
+        }
+    }
+}
+
+
 @media only screen and (min-width: 768px) {
 
     .header{
@@ -47,11 +58,16 @@
             top: 0%;
             left: 0%;
             z-index: -1;
+
+            .small-screen{
+                display: none;
+            }
            
 
             &__image{
                 width: 100vw;
                 height: auto;
+                object-fit: contain;
             }
 
             &__model-name{

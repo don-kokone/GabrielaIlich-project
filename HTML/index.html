@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
     <link rel="stylesheet" href="/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com/">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
@@ -17,8 +17,12 @@
     <header class="header">
 
         <figure class="header-image">
-            <img class="header-image__image"
+            <img class="header-image__image small-screen"
                 src="https://images.pexels.com/photos/2811087/pexels-photo-2811087.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                alt="Gabriela Ilich">
+
+            <img class="header-image__image big-screen"
+                src="https://images.unsplash.com/photo-1465145782865-09532f760e6b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80"
                 alt="Gabriela Ilich">
             <figcaption class="header-image__model-name">
                 <span class="header-image__model-name--first">Gabriela</span> <span
@@ -67,15 +71,24 @@
                             class="lower-case-with-overline">o</span>
                     </h2>
 
-                    <ul class="portfolio__sizes">
-                        <li>HEIGHT : 173 - 5'8"</li>
-                        <li>BUST : 85 - 33"</li>
-                        <li>WAIST : 62 - 24"</li>
-                        <li>HIPS : 93 - 36"</li>
-                        <li>SHOES : 39 - 7 1/2</li>
-                        <li>HAIR : BROWN</li>
-                        <li>EYES : GREEN</li>
-                    </ul>
+                    <div class="portfolio__wrapper">
+                        
+                        <img class="portfolio__image"
+                            src="https://images.unsplash.com/photo-1495063378081-52411c3eedf1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1834&q=80"
+                            alt="Gabriela Ilich">
+
+
+                        <ul class="portfolio__sizes">
+                            <li>HEIGHT : 173 - 5'8"</li>
+                            <li>BUST : 85 - 33"</li>
+                            <li>WAIST : 62 - 24"</li>
+                            <li>HIPS : 93 - 36"</li>
+                            <li>SHOES : 39 - 7 1/2</li>
+                            <li>HAIR : BROWN</li>
+                            <li>EYES : GREEN</li>
+                        </ul>
+
+                    </div>
 
                     <div class="portfolio__instagram-icon">
                         <a href="#"> <i class="fab fa-instagram"></i></a>

@@ -130,6 +130,12 @@ a:active {
   color: #fff06e;
 }
 
+@media only screen and (max-width: 767px) {
+  .header-image .big-screen {
+    display: none;
+  }
+}
+
 @media only screen and (min-width: 768px) {
   .header {
     position: relative;
@@ -140,9 +146,14 @@ a:active {
     left: 0%;
     z-index: -1;
   }
+  .header .header-image .small-screen {
+    display: none;
+  }
   .header .header-image__image {
     width: 100vw;
     height: auto;
+    -o-object-fit: contain;
+       object-fit: contain;
   }
   .header .header-image__model-name {
     font-size: 5rem;
@@ -197,6 +208,11 @@ a:active {
     padding-top: 1rem;
     background-color: white;
     width: 100vw;
+  }
+  .about-me__text {
+    width: 90%;
+    margin: 0 auto;
+    padding: 2rem 0rem;
   }
 }
 
@@ -267,6 +283,10 @@ a:active {
   display: block;
 }
 
+.model-info .slider-items .slide .portfolio__image {
+  display: none;
+}
+
 .model-info .slider-items .slide img {
   margin: 0 auto;
   max-width: 50%;
@@ -291,6 +311,28 @@ a:active {
     left: 0;
     z-index: -1;
     background-color: white;
+  }
+  .model-info .portfolio__wrapper {
+    width: 90%;
+    height: 50vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .model-info .portfolio__image {
+    max-width: 100%;
+    height: auto;
+    display: inline-block !important;
   }
 }
 
